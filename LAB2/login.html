@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h1 id="header">Welcome to FOOTBALL SHOES SHOP</h1>      
+        <h3>로그인</h3>            
+    </div>
+    <div id="line"></div>
+    <div>
+        
+        <h4>회원 정보 (필수)</h4>
+        <div>
+            <label for="default2">사람인지 확인: </label>
+            <input name="default2" id="default2" type="radio" checked> 예
+            <input name="default2" type="radio" > 아니오
+          </div>
+        <form action="signup.php" method="get">
+            <label for="id" >유저 아이디 :<input type="text" name="id" id="id" placeholder="아이디를 입력하세요" required></label>
+        </form> 
+
+        <form action="signup.php" method="get"> 
+            <label for="password">비밀번호 :<input type="password" name="password" placeholder="비밀번호를 입력하세요" required></label>
+        </form> 
+
+        <form action="signup.php" method="get"> 
+            <label for="password2">비밀번호 확인 :<input type="password" name="password2" placeholder="비밀번호를 다시 입력하세요" required></label>          
+        </form>
+
+        <form action="editor.cgi" method="post">
+            <input id="submit" type="submit" value="Signup">
+            <input id="reset" type="reset" value="Cancel">       
+        </form>
+    </div>

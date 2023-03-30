@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <h1 id="header">Welcome to FOOTBALL SHOES SHOP</h1>      
+        <a href="login.html">로그인</a>
+        <h3 id="signup">회원 가입</h3>        
+    </div>
+    
+    <div id="line"></div>
+    <div>
+        <h4>개인정보 (필수)</h4>
+        <div>
+            <label for="default1">성별</label>
+            <input id="default1" type="checkbox" checked> 남자
+            <input type="checkbox" > 여자
+          </div>
+        <form action="signup.php" method="get" autocomplete="on">   
+            <label>이름 :<input type="text" name="name" id=''id placeholder="이름을 입력하세요" required autofocus>
+            </label>
+        </form>
+        <form action="signup.php" method="get"></form>    
+            <label for="bith">생일 :<input type="date" name="date" id="id" ></label> 
+        </form>    
+        <form action="signup.php" method="get">     
+            <label for="grade">학년 :<input type="number" name="grade" min = "1" max="4" step ="1" value = "1"></label>
+        </form> 
+        <form action="signup.php" method="get">     
+            <label for="phone_number">전화번호 :<input type="tel" name="phone_number"  placeholder="(###)###-###" required></label>
+        </form>
+        <form action="signup.php" method="get">     
+            <label>Email :<input type="email" name="email"  placeholder="name@domain.com" required></label> (name@domain.com)
+        </form>
+        <form action="signup.php" method="get">
+            <label for="id" >유저 아이디 :<input type="text" name="id" id="id" placeholder="아이디를 입력하세요" required></label>
+        </form> 
+        <form action="signup.php" method="get"> 
+            <label for="password">비밀번호 :<input type="password" name="password" id="password" placeholder="비밀번호를 입력하세요" required></label>
+        </form>  
+        <form action="signup.php" method="get"> 
+            <label for="password2">비밀번호 확인 :<input type="password" name="password2" id="password2" placeholder="비밀번호를 다시 입력하세요" required></label>          
+        </form>
+        <form action="editor.cgi" method="post">
+            <input id="submit" type="submit" value="Signup">
+            <input id="reset" type="reset" value="Cancel">       
+        </form>
+    </div>
+    
+</body>
+</html>

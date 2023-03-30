@@ -1,0 +1,51 @@
+#header {
+    font-family: 'Courier New', Courier, monospace;
+    size: 15;
+    color:rgb(50, 75, 75);
+    text-shadow: -4px 4px 4px #aaa; 
+    text-align: center;
+    
+}
+
+#reset {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: tomato;
+    margin-top: 10px;
+    font-size: 20px;
+   
+    
+}
+
+#submit {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color:aquamarine
+    
+}
+
+a {
+    text-decoration-line: none;   
+}
+
+#signup {
+    display: inline-block;
+   
+}
+
+h3 {
+    text-decoration-line:underline;
+}
+
+#line {
+    border: 1px solid rgb(14, 13, 13);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+    height: auto;
+}
+
+h4 {
+    padding: auto;
+    height: auto;
+}
