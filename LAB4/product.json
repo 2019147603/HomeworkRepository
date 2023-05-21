@@ -1,0 +1,81 @@
+[
+  {
+  "name" : "ASCIS2",
+  "price" : 1.49,
+  "image" : "images/asics2.jpg",
+  "category" : "asics",
+  "description" : "이 축구화는 아식스입니다."
+  },
+
+  {
+  "name" : "ADIDAS2",
+  "price" : 1.99,
+  "image" : "images/adidas2.jpg",
+  "category" : "adidas",
+  "description" : "이 축구화는 아디다스입니다."
+  },
+  
+  {
+  "name" : "Nike1",
+  "price" : 2.85,
+  "image" : "images/nike1.jpg",
+  "category" : "Nike",
+  "description" : "이 축구화는 나이키입니다."
+  },
+
+  {
+  "name" : "Nike2",
+  "price" : 0.99,
+  "image" : "images/nike2.jpg",
+  "category" : "Nike",
+  "description" : "이 축구화는 나이키입니다."
+  },
+
+  {
+  "name" : "ADIDAS1",
+  "price" : 0.58,
+  "image" : "images/adidas1.jpg",
+  "category" : "adidas",
+  "description" : "이 축구화는 아디다스입니다."
+  },
+
+  {
+  "name" : "Nike5",
+  "price" : 0.52,
+  "image" : "images/nike5.jpg",
+  "category" : "Nike",
+  "description" : "이 축구화는 나이키입니다."
+  },
+
+  {
+  "name" : "ASCIS1",
+  "price" : 1.89,
+  "image" : "images/asics1.jpg",
+  "category" : "asics",
+  "description" : "이 축구화는 아식스입니다."
+  },
+  {
+  "name" : "ADIDAS3",
+  "price" : 2.39,
+  "image" : "images/adidas3.jpg",
+  "category" : "adidas",
+  "description" : "이 축구화는 아디다스입니다."
+  },
+
+  {
+  "name" : "ASCIS3",
+  "price" : 1.40,
+  "image" : "images/asics3.jpg",
+  "category" : "asics",
+  "description" : "이 축구화는 아식스입니다."
+  },
+
+  {
+  "name" : "Nike4",
+  "price" : 0.45,
+  "image" : "images/nike4.jpg",
+  "category" : "Nike",
+  "description" : "이 축구화는 나이키입니다."
+  } 
+
+  ]
